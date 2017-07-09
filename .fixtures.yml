@@ -1,6 +1,7 @@
 fixtures:
   repositories:
     "stdlib": "https://github.com/puppetlabs/puppetlabs-stdlib.git"
+    debug: 'https://github.com/nwops/puppet-debug.git'
   symlinks:
     "ntp": "#{source_dir}"
     "my_ntp": "#{source_dir}/spec/fixtures/my_ntp"
